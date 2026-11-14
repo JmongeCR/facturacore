@@ -9,7 +9,6 @@
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="stylesheet" href="/assets/site.css">
 <link rel="stylesheet" href="/assets/legal.css">
-<style>@page{@bottom-left{content:"FacturaCore · Política de Pagos, Cancelación y Reembolsos";font:7.5pt 'IBM Plex Mono',monospace;color:#66758C}}</style>
 </head>
 <body>
 
@@ -42,171 +41,41 @@
 <div class="wrap">
 
   <header class="doc-head">
-    <div class="print-head">
-      <span class="brand"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#1E3A5F"/><path d="M9 10h14M9 16h8" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path d="M13.5 22.5l3 3 6.5-8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Factura<b>Core</b></span></span>
-      <span>Documento legal</span>
-    </div>
     <p class="crumbs"><a href="/legal">Legal</a> / Pagos</p>
     <h1>Política de Pagos, Cancelación y Reembolsos</h1>
-    <p class="lede">Cómo funcionan los cobros, qué pasa si el Cliente cambia de plan o cancela, y cuándo aplican reembolsos.</p>
-    <p class="doc-meta"><span>Última actualización: 13 de noviembre de 2026</span><span>Precios en colones costarricenses</span></p>
-
+    <p class="lede">Cómo se cobra el servicio, qué ocurre al cambiar de plan o darse de baja y en qué casos procede un reembolso.</p>
     <div class="doc-bar">
-      <div class="tabs" role="tablist" aria-label="Formato del documento">
-        <button class="tab" type="button" role="tab" id="tab-pdf" data-tab="pdf" aria-controls="pdf" aria-selected="false">Documento PDF</button>
-        <button class="tab" type="button" role="tab" id="tab-texto" data-tab="texto" aria-controls="texto" aria-selected="true">Texto</button>
-      </div>
-      <a class="btn btn-outline btn-sm" href="/legal/pdf/politica-de-pagos.pdf" download>Descargar PDF</a>
+      <p class="doc-meta"><span>Última actualización: 13 de noviembre de 2026</span><span>Precios en colones costarricenses</span></p>
+      <a class="btn btn-primary btn-sm" href="/legal/pdf/politica-de-pagos.pdf" download>Descargar PDF</a>
     </div>
   </header>
 
-  <div class="doc-layout">
-    <nav class="toc" aria-label="Secciones del documento">
-      <p class="toc-label">En este documento</p>
-      <a href="#pa-precios">1. Precios</a>
-      <a href="#pa-ciclo">2. Ciclo de facturación</a>
-      <a href="#pa-medios">3. Medios de pago</a>
-      <a href="#pa-fallo">4. Fallo en el pago</a>
-      <a href="#pa-plan">5. Cambios de plan</a>
-      <a href="#pa-cancelacion">6. Cancelación</a>
-      <a href="#pa-proveedor">7. Cancelación por el Proveedor</a>
-      <a href="#pa-reembolsos">8. Reembolsos</a>
-      <a href="#pa-precios2">9. Variación de precios</a>
-      <a href="#pa-contacto">10. Contacto</a>
-    </nav>
-
-    <div>
-      <article class="doc" id="texto" role="tabpanel" aria-labelledby="tab-texto">
-
-        <div class="summary">
-          <h2>En resumen</h2>
-          <ul>
-            <li>Los precios están en colones y se les suma el IVA del 13 % en cada cobro.</li>
-            <li>El Servicio se cobra por mes adelantado, el mismo día calendario de cada mes.</li>
-            <li>Si un pago falla, el Cliente tiene 5 días hábiles para regularizarlo antes de que se suspenda el acceso.</li>
-            <li>El Cliente puede cancelar en cualquier momento: conserva el acceso durante el período pagado y recibe un respaldo de sus comprobantes.</li>
-            <li>Los pagos adelantados no son reembolsables como norma general; hay supuestos que se evalúan caso por caso.</li>
-          </ul>
-          <p class="fine">Este resumen es una ayuda de lectura. Lo que aplica es el texto completo que sigue.</p>
-        </div>
-
-        <section id="pa-precios">
-          <h2><span class="n">1.</span>Precios</h2>
-          <p>Esta política complementa los <a href="/legal/terminos">Términos y Condiciones</a> de FacturaCore y usa sus mismas definiciones: «el Proveedor», «el Cliente» y «el Servicio».</p>
-          <p>Los precios base están expresados en <strong>colones costarricenses (₡)</strong> y no incluyen IVA. El <strong>IVA del 13 %</strong> se suma en el momento del cobro.</p>
-          <div class="tw"><table>
-            <thead><tr><th>Plan</th><th class="num">Precio base mensual</th><th class="num">IVA (13 %)</th><th class="num">Total mensual</th></tr></thead>
-            <tbody>
-              <tr><td><strong>Esencial</strong></td><td class="num">₡3.900</td><td class="num">₡507</td><td class="num total">₡4.407</td></tr>
-              <tr><td><strong>Negocio</strong></td><td class="num">₡7.900</td><td class="num">₡1.027</td><td class="num total">₡8.927</td></tr>
-              <tr><td><strong>Contador</strong></td><td class="num">₡19.900</td><td class="num">₡2.587</td><td class="num total">₡22.487</td></tr>
-            </tbody>
-          </table></div>
-        </section>
-
-        <section id="pa-ciclo">
-          <h2><span class="n">2.</span>Ciclo de facturación</h2>
-          <ul>
-            <li>El Servicio se factura mensualmente, por ciclos <strong>adelantados</strong>.</li>
-            <li>El primer cobro se realiza al activar la cuenta.</li>
-            <li>Los siguientes cobros se generan el mismo día calendario de cada mes.</li>
-            <li>Si ese día no existe en un mes dado (por ejemplo, el día 31 en febrero), el cobro se realiza el último día del mes.</li>
-            <li>Por cada cobro, el Proveedor emite el comprobante electrónico correspondiente.</li>
-          </ul>
-        </section>
-
-        <section id="pa-medios">
-          <h2><span class="n">3.</span>Medios de pago aceptados</h2>
-          <ul>
-            <li><strong>Tarjeta de crédito o débito</strong>, mediante un enlace de pago seguro procesado por <strong>Onvopay</strong>.</li>
-            <li><strong>SINPE Móvil</strong>: el número y el banco se indican al momento del cobro.</li>
-            <li><strong>Transferencia bancaria</strong>: los datos se envían por correo al confirmar la contratación.</li>
-          </ul>
-          <p>Los datos de tarjeta son procesados directamente por Onvopay. FacturaCore no almacena números de tarjeta, fechas de vencimiento ni códigos de seguridad.</p>
-        </section>
-
-        <section id="pa-fallo">
-          <h2><span class="n">4.</span>Fallo en el pago</h2>
-          <p>Si un cobro no puede completarse:</p>
-          <ol>
-            <li>Se enviará un aviso al correo registrado, con instrucciones para regularizar el pago.</li>
-            <li>El Cliente tendrá <strong>5 días hábiles</strong> para completar el pago antes de que el acceso sea suspendido.</li>
-            <li>Durante la suspensión, los datos y comprobantes se conservan intactos.</li>
-            <li>Si el pago no se regulariza en <strong>30 días</strong>, el Proveedor podrá cancelar la cuenta.</li>
-          </ol>
-        </section>
-
-        <section id="pa-plan">
-          <h2><span class="n">5.</span>Cambios de plan</h2>
-          <ul>
-            <li><strong>Cambio a un plan superior:</strong> el nuevo precio aplica desde el siguiente ciclo.</li>
-            <li><strong>Cambio a un plan inferior:</strong> aplica desde el siguiente ciclo. El Cliente deberá ajustar su configuración si supera los límites del nuevo plan.</li>
-          </ul>
-        </section>
-
-        <section id="pa-cancelacion">
-          <h2><span class="n">6.</span>Cancelación</h2>
-          <p>El Cliente puede cancelar en cualquier momento escribiendo a <a href="mailto:soporte@facturacorecr.com"><strong>soporte@facturacorecr.com</strong></a>. La cancelación surte efecto un día antes del inicio del siguiente ciclo. El Cliente conserva acceso completo durante el período ya pagado.</p>
-          <p><strong>Respaldo de datos:</strong> el día anterior a la cancelación efectiva, el Proveedor enviará al correo registrado un archivo comprimido con todos los comprobantes del Cliente (XML firmados y PDF).</p>
-        </section>
-
-        <section id="pa-proveedor">
-          <h2><span class="n">7.</span>Cancelación por el Proveedor</h2>
-          <p>En los supuestos descritos en los <a href="/legal/terminos#t-suspension">Términos y Condiciones</a>, el Proveedor enviará el respaldo de comprobantes y reembolsará la parte proporcional del período no utilizado, salvo en caso de uso fraudulento o ilícito.</p>
-        </section>
-
-        <section id="pa-reembolsos">
-          <h2><span class="n">8.</span>Reembolsos</h2>
-          <p>Los pagos adelantados <strong>no son reembolsables</strong> como norma general. El Proveedor evaluará las solicitudes caso por caso cuando:</p>
-          <ul>
-            <li>se produzca una interrupción del Servicio mayor a <strong>48 horas continuas</strong> imputable al Proveedor; o</li>
-            <li>exista un cobro duplicado o un error administrativo.</li>
-          </ul>
-          <p>Las solicitudes deben enviarse a <a href="mailto:soporte@facturacorecr.com"><strong>soporte@facturacorecr.com</strong></a> dentro de los <strong>5 días hábiles</strong> siguientes al cobro.</p>
-        </section>
-
-        <section id="pa-precios2">
-          <h2><span class="n">9.</span>Variación de precios</h2>
-          <p>El Proveedor podrá ajustar los precios notificando al Cliente con al menos <strong>30 días de antelación</strong> por correo electrónico. El Cliente puede cancelar sin cargo antes de que el ajuste entre en vigencia.</p>
-        </section>
-
-        <section id="pa-contacto">
-          <h2><span class="n">10.</span>Contacto</h2>
-          <div class="contact-card">
-            Jean Josue Monge Salas (nombre de fantasía FacturaCore)<br>
-            <a href="mailto:soporte@facturacorecr.com">soporte@facturacorecr.com</a><br>
-            Heredia, San Isidro, 100 metros norte del Super Zurquí, Costa Rica.
-          </div>
-        </section>
-
-        <aside class="doc-others">
-          <h2>Otros documentos</h2>
-          <ul>
-            <li><a href="/legal/terminos">Términos y Condiciones</a></li>
-            <li><a href="/legal/privacidad">Política de Privacidad</a></li>
-          </ul>
-        </aside>
-      </article>
-
-      <section class="viewer" id="pdf" role="tabpanel" aria-labelledby="tab-pdf" data-pdf="/legal/pdf/politica-de-pagos.pdf" hidden>
-        <div class="pv-bar">
-          <div class="pv-group">
-            <button class="pv-btn" type="button" data-zoom="-1" aria-label="Reducir">−</button>
-            <span class="pv-zoom">100 %</span>
-            <button class="pv-btn" type="button" data-zoom="1" aria-label="Ampliar">+</button>
-            <span class="pv-count" aria-live="polite"></span>
-          </div>
-          <div class="pv-group">
-            <a class="pv-link" href="/legal/pdf/politica-de-pagos.pdf" target="_blank" rel="noopener">Abrir en pestaña nueva</a>
-          </div>
-        </div>
-        <div class="pv-scroll" tabindex="0" aria-label="Política de Pagos en PDF">
-          <p class="pv-status">Cargando documento…</p>
-          <div class="pv-stack"></div>
-        </div>
-      </section>
+  <section class="viewer" id="pdf" aria-label="Política de Pagos, Cancelación y Reembolsos en PDF" data-pdf="/legal/pdf/politica-de-pagos.pdf">
+    <div class="pv-bar">
+      <div class="pv-group">
+        <button class="pv-btn" type="button" data-zoom="-1" aria-label="Reducir">−</button>
+        <span class="pv-zoom">100 %</span>
+        <button class="pv-btn" type="button" data-zoom="1" aria-label="Ampliar">+</button>
+        <span class="pv-count" aria-live="polite"></span>
+      </div>
+      <div class="pv-group">
+        <a class="pv-link" href="/legal/pdf/politica-de-pagos.pdf" target="_blank" rel="noopener">Abrir en pestaña nueva</a>
+      </div>
     </div>
-  </div>
+    <div class="pv-scroll" tabindex="0">
+      <p class="pv-status">Cargando documento…</p>
+      <div class="pv-stack"></div>
+    </div>
+    <noscript><p class="pv-status"><a href="/legal/pdf/politica-de-pagos.pdf">Abrir el documento en PDF</a></p></noscript>
+  </section>
+
+  <aside class="doc-others">
+    <h2>Otros documentos</h2>
+    <ul>
+      <li><a href="/legal/terminos">Términos y Condiciones</a></li>
+      <li><a href="/legal/privacidad">Política de Privacidad</a></li>
+    </ul>
+  </aside>
 
 </div>
 </main>

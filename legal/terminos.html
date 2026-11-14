@@ -9,7 +9,6 @@
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="stylesheet" href="/assets/site.css">
 <link rel="stylesheet" href="/assets/legal.css">
-<style>@page{@bottom-left{content:"FacturaCore · Términos y Condiciones";font:7.5pt 'IBM Plex Mono',monospace;color:#66758C}}</style>
 </head>
 <body>
 
@@ -42,190 +41,41 @@
 <div class="wrap">
 
   <header class="doc-head">
-    <div class="print-head">
-      <span class="brand"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#1E3A5F"/><path d="M9 10h14M9 16h8" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/><path d="M13.5 22.5l3 3 6.5-8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Factura<b>Core</b></span></span>
-      <span>Documento legal</span>
-    </div>
     <p class="crumbs"><a href="/legal">Legal</a> / Términos</p>
     <h1>Términos y Condiciones</h1>
-    <p class="lede">Las condiciones que rigen el uso de FacturaCore: a qué se compromete cada parte y qué puede esperar de la otra.</p>
-    <p class="doc-meta"><span>Última actualización: 13 de noviembre de 2026</span><span>República de Costa Rica</span></p>
-
+    <p class="lede">Las reglas de uso de FacturaCore: lo que asume cada parte y lo que puede exigirle a la otra.</p>
     <div class="doc-bar">
-      <div class="tabs" role="tablist" aria-label="Formato del documento">
-        <button class="tab" type="button" role="tab" id="tab-pdf" data-tab="pdf" aria-controls="pdf" aria-selected="false">Documento PDF</button>
-        <button class="tab" type="button" role="tab" id="tab-texto" data-tab="texto" aria-controls="texto" aria-selected="true">Texto</button>
-      </div>
-      <a class="btn btn-outline btn-sm" href="/legal/pdf/terminos-y-condiciones.pdf" download>Descargar PDF</a>
+      <p class="doc-meta"><span>Última actualización: 13 de noviembre de 2026</span><span>República de Costa Rica</span></p>
+      <a class="btn btn-primary btn-sm" href="/legal/pdf/terminos-y-condiciones.pdf" download>Descargar PDF</a>
     </div>
   </header>
 
-  <div class="doc-layout">
-    <nav class="toc" aria-label="Secciones del documento">
-      <p class="toc-label">En este documento</p>
-      <a href="#t-partes">1. Partes y aceptación</a>
-      <a href="#t-servicio">2. El Servicio</a>
-      <a href="#t-planes">3. Planes y precios</a>
-      <a href="#t-facturacion">4. Contratación</a>
-      <a href="#t-cliente">5. Obligaciones del Cliente</a>
-      <a href="#t-proveedor">6. Obligaciones del Proveedor</a>
-      <a href="#t-pi">7. Propiedad intelectual</a>
-      <a href="#t-responsabilidad">8. Responsabilidad</a>
-      <a href="#t-cancelacion">9. Cancelación</a>
-      <a href="#t-reembolsos">10. Reembolsos</a>
-      <a href="#t-suspension">11. Suspensión</a>
-      <a href="#t-cambios">12. Cambios</a>
-      <a href="#t-ley">13. Ley aplicable</a>
-      <a href="#t-contacto">14. Contacto</a>
-    </nav>
-
-    <div>
-      <article class="doc" id="texto" role="tabpanel" aria-labelledby="tab-texto">
-
-        <div class="summary">
-          <h2>En resumen</h2>
-          <ul>
-            <li>FacturaCore es un servicio por suscripción mensual, pagada por adelantado, para emitir comprobantes electrónicos ante el Ministerio de Hacienda.</li>
-            <li>El Cliente responde por la información que ingresa y por mantener vigente su certificado de firma.</li>
-            <li>La aceptación de cada comprobante depende de Hacienda; el Proveedor no puede garantizarla.</li>
-            <li>El Cliente puede cancelar en cualquier momento y recibe un respaldo de sus comprobantes.</li>
-            <li>Los cambios a estos Términos se avisan con 15 días de antelación, y los cambios de precio con 30 días.</li>
-          </ul>
-          <p class="fine">Este resumen es una ayuda de lectura. Lo que aplica es el texto completo que sigue.</p>
-        </div>
-
-        <section id="t-partes">
-          <h2><span class="n">1.</span>Partes y aceptación</h2>
-          <p>Estos Términos regulan el uso del servicio de facturación electrónica <strong>FacturaCore</strong> (en adelante, «el Servicio»), ofrecido por <strong>Jean Josue Monge Salas</strong>, cédula física 1-1674-0278, nombre de fantasía FacturaCore, domiciliado en Heredia, San Isidro, 100 metros norte del Super Zurquí, Costa Rica (en adelante, «el Proveedor»).</p>
-          <p>«El Cliente» es la persona física o jurídica que contrata el Servicio. Al contratarlo, el Cliente acepta estos Términos en su totalidad. Quien actúa en nombre de una persona jurídica declara tener las facultades necesarias para obligarla.</p>
-          <p>La <a href="/legal/privacidad">Política de Privacidad</a> y la <a href="/legal/pagos">Política de Pagos, Cancelación y Reembolsos</a> complementan estos Términos y forman parte del acuerdo entre las partes.</p>
-        </section>
-
-        <section id="t-servicio">
-          <h2><span class="n">2.</span>El Servicio</h2>
-          <p>FacturaCore es una plataforma en línea (SaaS) que permite emitir, firmar digitalmente y enviar comprobantes electrónicos ante el <strong>Ministerio de Hacienda de Costa Rica</strong>, conforme al Decreto 44739-H.</p>
-          <p>Comprobantes soportados: Factura Electrónica, Tiquete Electrónico, Nota de Crédito, Nota de Débito, Factura Electrónica de Compra y Factura Electrónica de Exportación.</p>
-        </section>
-
-        <section id="t-planes">
-          <h2><span class="n">3.</span>Planes y precios</h2>
-          <p>Todos los precios están expresados en <strong>colones costarricenses (₡)</strong> y no incluyen el <strong>IVA del 13 %</strong>, que se suma en cada cobro.</p>
-          <div class="tw"><table>
-            <thead><tr><th>Plan</th><th class="num">Precio mensual (sin IVA)</th><th>Empresas</th><th>Usuarios</th><th>Comprobantes por mes</th></tr></thead>
-            <tbody>
-              <tr><td><strong>Esencial</strong></td><td class="num">₡3.900</td><td>1</td><td>1</td><td>50</td></tr>
-              <tr><td><strong>Negocio</strong></td><td class="num">₡7.900</td><td>1</td><td>Hasta 3</td><td>250</td></tr>
-              <tr><td><strong>Contador</strong></td><td class="num">₡19.900</td><td>Hasta 5</td><td>5</td><td>1.000, compartidos entre las empresas</td></tr>
-            </tbody>
-          </table></div>
-          <p>Los comprobantes no utilizados no se acumulan al siguiente período. Los totales con IVA figuran en la <a href="/legal/pagos#pa-precios">Política de Pagos</a>.</p>
-          <p>El Proveedor puede modificar los precios con un aviso previo de <strong>30 días</strong> por correo electrónico.</p>
-        </section>
-
-        <section id="t-facturacion">
-          <h2><span class="n">4.</span>Contratación y facturación</h2>
-          <p>El Servicio se contrata por ciclos mensuales <strong>pagados por adelantado</strong>. Los medios de pago aceptados son tarjeta de crédito o débito (procesada por Onvopay), SINPE Móvil y transferencia bancaria.</p>
-          <p>El Proveedor emite el comprobante electrónico correspondiente por cada cobro. El detalle de los cobros se regula en la <a href="/legal/pagos">Política de Pagos</a>.</p>
-        </section>
-
-        <section id="t-cliente">
-          <h2><span class="n">5.</span>Obligaciones del Cliente</h2>
-          <ul>
-            <li>Proporcionar información veraz y mantenerla actualizada.</li>
-            <li>Revisar la exactitud de los datos de cada comprobante antes de emitirlo. El Cliente es el emisor de sus comprobantes y responde por su contenido y por sus propias obligaciones tributarias.</li>
-            <li>Mantener la confidencialidad de sus credenciales y del certificado de firma (.p12).</li>
-            <li>Mantener vigente el certificado o llave criptográfica con que firma sus comprobantes, emitido por el Ministerio de Hacienda, el BCCR o la entidad certificadora correspondiente.</li>
-            <li>Usar el Servicio únicamente para la emisión de comprobantes lícitos.</li>
-            <li>No intentar acceder a datos de otros usuarios ni introducir código malicioso.</li>
-          </ul>
-        </section>
-
-        <section id="t-proveedor">
-          <h2><span class="n">6.</span>Obligaciones del Proveedor</h2>
-          <p>El Proveedor se compromete a:</p>
-          <ul>
-            <li>mantener el Servicio disponible con un esfuerzo razonable;</li>
-            <li>conservar los comprobantes durante el plazo legal exigido; y</li>
-            <li>tratar los datos conforme a la <a href="/legal/privacidad">Política de Privacidad</a>.</li>
-          </ul>
-          <p>El Proveedor <strong>no garantiza</strong> que Hacienda acepte todos los comprobantes enviados, ya que la aceptación depende de la validez del certificado del Cliente, de la exactitud de los datos y de la disponibilidad de los sistemas de Hacienda.</p>
-        </section>
-
-        <section id="t-pi">
-          <h2><span class="n">7.</span>Propiedad intelectual</h2>
-          <p>El software, el diseño y el nombre comercial de FacturaCore son propiedad exclusiva del Proveedor. Mientras la suscripción esté vigente, el Cliente tiene un derecho de uso del Servicio no exclusivo e intransferible.</p>
-          <p>Los datos y comprobantes generados por el Cliente son propiedad del Cliente.</p>
-        </section>
-
-        <section id="t-responsabilidad">
-          <h2><span class="n">8.</span>Limitación de responsabilidad</h2>
-          <p>El Proveedor no será responsable por daños indirectos, lucro cesante ni pérdidas de datos no atribuibles a su negligencia grave o dolo. La responsabilidad total por un período mensual no excederá el valor pagado por ese mes.</p>
-          <p>Lo anterior no limita los derechos que la legislación costarricense reconoce al consumidor con carácter irrenunciable.</p>
-        </section>
-
-        <section id="t-cancelacion">
-          <h2><span class="n">9.</span>Cancelación</h2>
-          <p>El Cliente puede cancelar en cualquier momento escribiendo a <a href="mailto:soporte@facturacorecr.com"><strong>soporte@facturacorecr.com</strong></a>. La cancelación surte efecto un día antes del siguiente ciclo. El acceso se mantiene durante el período ya pagado.</p>
-          <p><strong>Respaldo previo a la cancelación:</strong> el día anterior a la fecha de cancelación, el Proveedor enviará al correo del Cliente un archivo con todos sus comprobantes (XML firmados y PDF).</p>
-        </section>
-
-        <section id="t-reembolsos">
-          <h2><span class="n">10.</span>Reembolsos</h2>
-          <p>Los pagos adelantados no son reembolsables como norma general. El Proveedor evaluará las solicitudes caso por caso, especialmente ante fallas graves del Servicio atribuibles al Proveedor. Los supuestos y plazos se detallan en la <a href="/legal/pagos#pa-reembolsos">Política de Pagos</a>.</p>
-        </section>
-
-        <section id="t-suspension">
-          <h2><span class="n">11.</span>Suspensión por el Proveedor</h2>
-          <p>El Proveedor puede suspender el acceso cuando el Cliente incumpla estos Términos, se detecte uso fraudulento o una autoridad competente lo ordene. La suspensión por falta de pago se regula en la <a href="/legal/pagos#pa-fallo">Política de Pagos</a>.</p>
-        </section>
-
-        <section id="t-cambios">
-          <h2><span class="n">12.</span>Cambios a estos Términos</h2>
-          <p>El Proveedor notificará los cambios con al menos <strong>15 días de antelación</strong> por correo electrónico. El Cliente puede cancelar sin cargo antes de la fecha de entrada en vigor.</p>
-        </section>
-
-        <section id="t-ley">
-          <h2><span class="n">13.</span>Ley aplicable y jurisdicción</h2>
-          <p>Estos Términos se rigen por las leyes de la <strong>República de Costa Rica</strong>. Para cualquier controversia, las partes se someten a los <strong>Tribunales de Justicia del Circuito Judicial de Heredia</strong>.</p>
-        </section>
-
-        <section id="t-contacto">
-          <h2><span class="n">14.</span>Contacto</h2>
-          <div class="contact-card">
-            Jean Josue Monge Salas (nombre de fantasía FacturaCore)<br>
-            <a href="mailto:soporte@facturacorecr.com">soporte@facturacorecr.com</a><br>
-            Heredia, San Isidro, 100 metros norte del Super Zurquí, Costa Rica.
-          </div>
-        </section>
-
-        <aside class="doc-others">
-          <h2>Otros documentos</h2>
-          <ul>
-            <li><a href="/legal/privacidad">Política de Privacidad</a></li>
-            <li><a href="/legal/pagos">Política de Pagos, Cancelación y Reembolsos</a></li>
-          </ul>
-        </aside>
-      </article>
-
-      <section class="viewer" id="pdf" role="tabpanel" aria-labelledby="tab-pdf" data-pdf="/legal/pdf/terminos-y-condiciones.pdf" hidden>
-        <div class="pv-bar">
-          <div class="pv-group">
-            <button class="pv-btn" type="button" data-zoom="-1" aria-label="Reducir">−</button>
-            <span class="pv-zoom">100 %</span>
-            <button class="pv-btn" type="button" data-zoom="1" aria-label="Ampliar">+</button>
-            <span class="pv-count" aria-live="polite"></span>
-          </div>
-          <div class="pv-group">
-            <a class="pv-link" href="/legal/pdf/terminos-y-condiciones.pdf" target="_blank" rel="noopener">Abrir en pestaña nueva</a>
-          </div>
-        </div>
-        <div class="pv-scroll" tabindex="0" aria-label="Términos y Condiciones en PDF">
-          <p class="pv-status">Cargando documento…</p>
-          <div class="pv-stack"></div>
-        </div>
-      </section>
+  <section class="viewer" id="pdf" aria-label="Términos y Condiciones en PDF" data-pdf="/legal/pdf/terminos-y-condiciones.pdf">
+    <div class="pv-bar">
+      <div class="pv-group">
+        <button class="pv-btn" type="button" data-zoom="-1" aria-label="Reducir">−</button>
+        <span class="pv-zoom">100 %</span>
+        <button class="pv-btn" type="button" data-zoom="1" aria-label="Ampliar">+</button>
+        <span class="pv-count" aria-live="polite"></span>
+      </div>
+      <div class="pv-group">
+        <a class="pv-link" href="/legal/pdf/terminos-y-condiciones.pdf" target="_blank" rel="noopener">Abrir en pestaña nueva</a>
+      </div>
     </div>
-  </div>
+    <div class="pv-scroll" tabindex="0">
+      <p class="pv-status">Cargando documento…</p>
+      <div class="pv-stack"></div>
+    </div>
+    <noscript><p class="pv-status"><a href="/legal/pdf/terminos-y-condiciones.pdf">Abrir el documento en PDF</a></p></noscript>
+  </section>
+
+  <aside class="doc-others">
+    <h2>Otros documentos</h2>
+    <ul>
+      <li><a href="/legal/privacidad">Política de Privacidad</a></li>
+      <li><a href="/legal/pagos">Política de Pagos, Cancelación y Reembolsos</a></li>
+    </ul>
+  </aside>
 
 </div>
 </main>
